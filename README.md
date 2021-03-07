@@ -114,5 +114,3 @@ for(p1;p1!=end;p1=p1->next)//冒泡排序
 
 为了清除文档方便，写了一个格式化的函数，以清除数据的方式打开文件，然后再关闭文件即可，但最要的是退出程序要调用exit(0)，不调用Student_information类的析构函数退出，否则又会把内存的数据写到C++work4.txt文件中，最后一个函数就是一个用cout直接打印出来的菜单界面函数了
 最后看主函数部分：主函数部分相对简单，开头要用#include "work4class.h"把前面定义的类给的文件给包含进来。然后main函数里面主要是通过一个switch语句并用一个对象来调用各个操作函数，当然了，首先当然要输入指定的指令。然后在switch外面用一个while循环实现多次调用，除非输入0才跳出循环，结束程序，并输出信息至文件work4.txt保存，整个程序大体就是这样。
-# 4.源码地址
-[https://github.com/Zhuhezhang/student-achievement-management-system](https://github.com/Zhuhezhang/student-achievement-management-system)
